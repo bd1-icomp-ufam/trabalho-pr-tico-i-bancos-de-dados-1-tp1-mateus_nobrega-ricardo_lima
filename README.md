@@ -26,6 +26,7 @@ python3 install_dependencies.py
 Se houver algum problema na execução do script, as bibliotecas podem ser instaladas manualmente usando os comandos:
 
 pip install psycopg2
+
 pip install tabulate
 
 ## Povoamento do Banco:
