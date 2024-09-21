@@ -21,19 +21,19 @@ Os arquivos **`requirements.txt`** e **`install_dependencies.py`** estão inclu�
 
 Para instalar todas as dependências de uma vez, basta executar o seguinte comando:
 
-python3 install_dependencies.py
+        python3 install_dependencies.py
 
 Se houver algum problema na execução do script, as bibliotecas podem ser instaladas manualmente usando os comandos:
 
-pip install psycopg2
+        pip install psycopg2
 
-pip install tabulate
+        pip install tabulate
 
 ## Povoamento do Banco:
-python3 tp1_3.2.py
+        python3 tp1_3.2.py
 
 ## Execução do script de consultas e dashboard:
-python tp1_3.3.py
+        python tp1_3.3.py
 
 ## Configuração do Banco de Dados: 
 - Aqui se deve colocar suas respectivas configurações para conexão com o banco:
