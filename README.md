@@ -28,7 +28,7 @@ Se houver algum problema na execução do script, as bibliotecas podem ser insta
 pip install psycopg2
 pip install tabulate
 
-## Povoamento do bando:
+## Povoamento do Banco:
 python3 tp1_3.2.py
 
 ## Execução do script de consultas e dashboard:
