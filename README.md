@@ -35,3 +35,12 @@ python3 tp1_3.2.py
 ## Execução do script de consultas e dashboard:
 python tp1_3.3.py
 
+## Configuração do Banco de Dados: 
+- Aqui se deve colocar suas respectivas configurações para conexão com o banco:
+
+    dbname='db3',  # Mudar para seu banco de dados
+    user='postgres',
+    password='123',
+    host='localhost',
+    port='5432'
+
