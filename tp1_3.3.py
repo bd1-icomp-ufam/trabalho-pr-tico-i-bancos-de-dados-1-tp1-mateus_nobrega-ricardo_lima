@@ -5,7 +5,7 @@ from tabulate import tabulate
 conn = db.connect(
     dbname='db3', # Mudar isso aquii 
     user='postgres',
-    password='8146',          #vou mudar a senha aqui pq no meu bd botei outra senha 
+    password='123',          #vou mudar a senha aqui pq no meu bd botei outra senha 
     host='localhost',
     port='5432'
 )
@@ -283,6 +283,8 @@ EXIT : Sair
         print(f"Você digitou: {entrada}")
     elif entrada == 'exit':
         print("Encerrando o programa...")
+        cursor.close()
+        conn.close()
         break
     else:
         print("Entrada inválida. Por favor, digite A, B, C, D, E, F, G ou 'exit'.")
